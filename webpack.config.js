@@ -57,7 +57,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.scss$/,
+                test: /\.sass$/,
                 use: extractPlugin.extract({
                     use: ['css-loader', 'sass-loader']
                 })
