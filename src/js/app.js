@@ -1,4 +1,6 @@
 // CSS
+// HTML for HMR
+require('../index.html');
 
 import { RandomGenerator } from './random-generator';
 
