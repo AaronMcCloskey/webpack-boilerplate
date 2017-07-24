@@ -58,9 +58,7 @@ module.exports = {
             },
             {
                 test: /\.sass$/,
-                use: extractPlugin.extract({
-                    use: ['css-loader', 'sass-loader']
-                })
+                loader: 'style-loader!css-loader?sourceMap!sass-loader?sourceMap&sourceComments'
             },
             {
                 test: /\.html$/,
